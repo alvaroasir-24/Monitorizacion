@@ -1,0 +1,32 @@
+# PROCESOS
+
+## Comandos:
+### PS:
+- ps: Muestra información de los procesos activos
+![ps](img/1.1.png)
+- ps au: Muestra los procesos activos más detalladamente
+![psau](img/1.2.png)
+- ps aux: Muestra todos los procesos, hasta los del sistema
+![psaux](img/1.3.png) 
+
+### Opciones:
+- -C: Sirve para buscar un proceso por el nombre
+- u -C: Para mostrar más información relacionada con un usuario
+- -u "usuario": Muestra todos los procesos que tiene un usuario
+![Opciones](img/1.4.png)
+
+### TOP:
+Muestra información del uso y los procesos del sistema
+- M: Ordena los procesos por memoria
+- P: Ordena los procesos por CPU
+- T: Ordena los procesos por tiempo de uso
+- N: Ordena los procesos por PID (Mayor a menor)
+- R: Ordena los procesos por PID (Menor a mayor)
+![Top](img/1.5.png)
+
+### Opciones:
+- -b: No es interactivo, no se muestra por pantalla
+- -n: (numero) Número de interacciones
+![OpcionesTop](img/1.6.png)
+
+
